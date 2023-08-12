@@ -6,6 +6,3 @@ install:
 
 protoc:
 	protoc --go_out=. --go-grpc_out=. proto/course_category.proto	
-
-evans:
-	evans -r repl
